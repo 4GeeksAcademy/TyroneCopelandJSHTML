@@ -3,3 +3,33 @@
 body{
     background: white;
 }
+.bigbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    border: 5px solid black;
+}
+h1, .lastbody {
+display: flex;
+flex-direction:row;
+background-color: lightskyblue;
+border-radius: 5px;
+}
+h2{
+display: flex;
+padding-left: 25px;
+padding-right: 25px;
+background-color: lightcoral;
+border-radius: 5px;
+}
+btn-secondary{
+    background-color: blue;
+}
+/* input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+} */
